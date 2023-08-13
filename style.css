@@ -1,0 +1,92 @@
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #e6f2ff;
+}
+
+.container{
+    width:500px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.underline{
+    width: 70px;
+    border: solid;
+    border-color: rgb(28, 116, 145);
+    border-width: 5px 0 0 0;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.review-box{
+    /* border: solid; */
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.review-box:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.job{
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.description{
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.left-btn, .right-btn{
+    margin: 10px;
+    font-size: 1.25rem;
+    color: blue;
+}
+
+.left-btn, .right-btn{
+    cursor: pointer;
+}
+
+button{
+    background-color: white;
+    border-radius: 8px;
+    font-size: 25px;
+    transition: all 0.1s linear;
+}
+
+button:hover{
+    background-color: #80bdff;
+    cursor: pointer;
+}
